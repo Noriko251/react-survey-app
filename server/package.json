@@ -1,10 +1,13 @@
 {
+  "home": "https://github.com/Noriko251/react-survey-app.git",
   "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "predepoy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Noriko",
