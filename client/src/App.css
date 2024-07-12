@@ -1,0 +1,62 @@
+.title {
+  text-align: center;
+  color: #005B41;
+}
+
+.survey {
+  display: block;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+h3 {
+  margin-top: 3%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.q4 {
+  display: flex;
+}
+
+.interest {
+  display: flex;
+  margin-right: 5%;
+}
+
+.review-box {
+  width: 400px;
+  height: 100px;
+  text-align: start;
+}
+
+.username, .password {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.password {
+  margin-left: 30px;
+}
+
+#username, #pass {
+  margin: 15px 15px;
+  border: none;
+}
+
+.teachersPageTitle {
+  display: flex;
+  justify-content: center;
+  color: #005B41;
+}
