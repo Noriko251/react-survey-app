@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "predepoy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Noriko",

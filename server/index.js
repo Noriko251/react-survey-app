@@ -13,8 +13,6 @@ app.post("/student", async (req, res) => {
             "INSERT INTO survey (name, age, class, interest, review) VALUES ($1, $2, $3, $4, $5)",
             [result.name, result.age, result.class, result.interest, result.review]
         );
-        // console.log(result);
-        // res.json(newReview.rows[0]);
         res.redirect("/thankyou")
     } catch (err) {
         console.error(err.message);
@@ -27,9 +25,6 @@ app.get("/review", async (req, res) => {
             "SELECT * FROM survey;"
         );
         res.json(newData);
-        // res.send(newData);
-        // console.log(newData);
-        // res.redirect("/review");
     } catch (err) {
         console.error(err.message);
     }
